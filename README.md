@@ -9,8 +9,8 @@ of CCG cards as NFT, create a marketplace for players to exchange NFT, and run a
 
 # Authors
 
-    @Ghiles YAHIATENE 21403478
-    @Rezak KHORSI 21201057
+    @Ghiles YAHIATENE 21403478 ; ghiles.yahiatene@etu.sorbonne-universite.fr
+    @Rezak KHORSI 21201057 ; rezak.khorsi@etu.sorbonne-universite.fr
 
 # Installation
 
