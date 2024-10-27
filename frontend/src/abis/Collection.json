@@ -1,0 +1,11 @@
+[
+  "constructor(string,uint256,uint256,string)",
+  "function cardCount() view returns (uint256)",
+  "function createCard(string,string,uint256,address) returns (address)",
+  "function getCardCount() view returns (uint256)",
+  "function getCards() view returns (address[])",
+  "function getId() view returns (uint256)",
+  "function getImageURI() view returns (string)",
+  "function getName() view returns (string)",
+  "function name() view returns (string)"
+]

@@ -1,0 +1,316 @@
+/* Styles généraux */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f3f5f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteneur principal */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* En-tête */
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #2a75bb;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+h3 {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 15px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Barre de navigation */
+.navbar {
+  background-color: #ffcc01;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.navbar .account-info {
+  font-size: 15px;
+  color: #2a2a72;
+  font-weight: 600;
+}
+
+.logout-button {
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logout-button:hover {
+  background-color: #d93636;
+  transform: scale(1.05);
+}
+
+/* Liste des collections */
+.collection-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.collection-list li {
+  position: relative;
+  width: 200px;
+  height: 250px;
+  background: linear-gradient(135deg, #f3f0ff, #d6c7ff);
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.collection-list li:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.collection-list li img {
+  width: 80%;
+  height: 70%;
+  object-fit: contain;
+  margin-top: 10px;
+  border-bottom: 4px solid #2a75bb;
+}
+
+.collection-list li span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* Détail de la collection */
+.collection-detail {
+  text-align: center;
+}
+
+.collection-detail img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #2a75bb;
+}
+
+.collection-detail button {
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2a75bb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15);
+}
+
+.collection-detail button:hover {
+  background-color: #1a4a80;
+  transform: scale(1.05);
+}
+
+/* Liste des cartes */
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card-list li {
+  position: relative;
+  width: 220px;
+  height: 270px;
+  background: linear-gradient(135deg, #f3f0ff, #d6c7ff);
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.card-list li:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.4);
+}
+
+.card-list li img {
+  width: 80%;
+  height: 65%;
+  object-fit: contain;
+  margin-top: 10px;
+  border-bottom: 4px solid #d6c7ff;
+}
+
+.card-list li div {
+  padding: 10px;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-list li div span {
+  display: block;
+  margin: 5px 0;
+}
+
+/* Message */
+.message {
+  color: #28a745;
+  font-weight: bold;
+  background-color: #eafaf1;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Détail de la carte */
+.card-detail {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+.card-detail h3 {
+  font-size: 28px;
+  color: #2a75bb;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-detail img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin: 20px auto;
+  border: 4px solid #2a75bb;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.card-detail p {
+  font-size: 18px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Section de transfert */
+.card-detail h4 {
+  font-size: 22px;
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.card-detail input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.05);
+  transition: border-color 0.3s ease;
+}
+
+.card-detail input[type="text"]:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(74, 144, 226, 0.3);
+}
+
+/* Boutons */
+.card-detail button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #2a75bb;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 200px;
+  margin: 10px 5px;
+}
+
+.card-detail button:hover {
+  background-color: #1a4a80;
+  transform: scale(1.05);
+}
+
+/* Style spécifique pour le bouton de retour */
+.card-detail button:nth-child(2) {
+  background-color: #6c757d;
+}
+
+.card-detail button:nth-child(2):hover {
+  background-color: #5a6268;
+}
+
+/* Message d'état */
+.message {
+  color: #28a745;
+  font-weight: bold;
+  background-color: #eafaf1;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

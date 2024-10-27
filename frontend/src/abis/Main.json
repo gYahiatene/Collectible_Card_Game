@@ -1,0 +1,15 @@
+[
+  "constructor()",
+  "function cardCount() view returns (uint256)",
+  "function count() view returns (uint256)",
+  "function createCardInCollection(uint256,string,string)",
+  "function createCollection(string,uint256,string) returns (uint256)",
+  "function getAllCard() view returns (uint256)",
+  "function getAllCollections() view returns (address[])",
+  "function getCardInfo(address) view returns (uint256, string, string)",
+  "function getCardInfoById(uint256) view returns (string, string, uint256)",
+  "function getCardOfCollection(uint256) view returns (address[])",
+  "function getCollection(address) view returns (uint256, string, uint256, string)",
+  "function getOwnerOf(uint256) view returns (address)",
+  "function transferCard(uint256,address)"
+]
