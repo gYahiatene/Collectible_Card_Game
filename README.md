@@ -6,6 +6,12 @@ of CCG cards as NFT, create a marketplace for players to exchange NFT, and run a
 
 [First slideshow](https://www.figma.com/file/MbBKLKATrPIRNDPfY23uwW/Blockchain-%26-Smart-Contracts?type=design&node-id=0%3A1&mode=design&t=FvBuqccvh9fpfW1o-1) [Second slideshow](https://www.figma.com/file/MbBKLKATrPIRNDPfY23uwW/Blockchain-%26-Smart-Contracts?type=design&node-id=184%3A368&mode=design&t=krkx1v8TmtDCpSTl-1)
 
+
+# Authors
+
+    @Ghiles YAHIATENE 21403478
+    @Rezak KHORSI 21201057
+
 # Installation
 
 ```bash
